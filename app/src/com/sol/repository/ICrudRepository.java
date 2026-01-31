@@ -1,4 +1,9 @@
 package com.sol.repository;
 
-public interface ICrudRepository {
+import java.util.List;
+
+public interface ICrudRepository<T> {
+    void agregar(T entidad);
+    List<T> obtenerTodos();
+    T buscarPorId(int id);
 }

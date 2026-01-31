@@ -24,7 +24,7 @@ public class Transaction {
         this.tipoServicio = tipoServicio;
     }
 
-    
+
 
 
 }
